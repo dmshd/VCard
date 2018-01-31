@@ -1,3 +1,5 @@
+[See the result of this exercise](https://dmshd.github.io/VCard/VCard.html)
+
 # Exercice 5 - Créer une V-Card
 ## Objectifs
 
