@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+body {
+    display: flex;
+    height: 100vh;
+}
+.vcard {
+  margin: auto;
+  width : 840px;
+  height: 380px;
+  font-size : 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+  border-radius: 25px;
+  box-shadow : 5px 5px 5px rgba(176, 183, 186, 0.3);
+  background-color: #FFFFFF;
+}
+
+#section {
+  background-color:  #0097A7;
+  height: 200px;
+  border-radius: 25px 25px 0 0;
+  background-image: url(images/backgroundImage.jpeg);
+}
+.imageroundcorner {
+  border-radius: 50%;
+}
+h1 {
+  margin: 0;
+}
+strong {
+  font-size: 38px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+article {
+  text-align: left;
+  margin-top: 60px;
+  margin-left: 40px;
+}
+.sec-gauche  {
+  float: left;
+  margin: 40px 0 0 40px;
+  padding: 0;
+}
+
+.sec-droite {
+  float: right;
+  color: #FFFFFF;
+  line-height: 40px;
+  text-align: center;
+  margin-top: 50px;
+  margin-right: 120px;
+}
+
+.article-gauche {
+  display: inline-block;
+  width: 50%
+}
+.article-droite {
+  text-align: center;
+  float: right;
+  margin-right: 50px;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #FFC107;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px;
+  width: 250px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
